@@ -1,0 +1,85 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+    background-color: gray;
+    border-radius: 15px;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    display: block; /* Garante que os campos de entrada estejam em linhas separadas */
+    width: 100%; /* Preenche a largura do contêiner pai */
+}
+
+form {
+    margin-top: 20px;
+    max-width: 300px; /* Adapte o máximo à largura desejada */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    max-height: 200px;
+}
+
+.home {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.create-post {
+    margin-left: 5px;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: rgb(190, 187, 187);
+}
+
+.post-div {
+    width: 100%;
+    text-align: center;
+}
+
+input[type='submit'] {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(138, 138, 138);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.register-form {
+    width: 100%;
+    text-align: center;
+}
+
+.register-div {
+    text-align: center;
+    display: grid;
+    margin: 0 auto; /* Center the grid */
+    grid-template-columns: 1fr 1fr;
+}
